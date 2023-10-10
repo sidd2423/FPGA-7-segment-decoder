@@ -44,7 +44,7 @@ assign g = (~sw3 & ~sw2 & ~sw1) | (~sw3 & sw2 & sw1 & sw0) | (sw3 & sw2 & ~sw1 &
 endmodule
 
 
-//part 2
+
 module 7segmentdecoder2(sw, outputb);
 
 input [3:0] sw;
