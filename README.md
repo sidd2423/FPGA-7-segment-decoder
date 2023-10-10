@@ -12,8 +12,7 @@ f(1,2,3,7,13)
 g(0,1,7,12)
 
 Code:
-//PART 1
-module Lab1(sw0,sw1,sw2,sw3,a,b,c,d,e,f,g);
+module 7Segmentdecoder(sw0,sw1,sw2,sw3,a,b,c,d,e,f,g);
 //define the switches  as inputs 
 input sw0, sw1, sw2, sw3;
 //define the outputs 
@@ -46,7 +45,7 @@ endmodule
 
 
 //part 2
-module Lab2(sw, outputb);
+module 7segmentdecoder2(sw, outputb);
 
 input [3:0] sw;
 
